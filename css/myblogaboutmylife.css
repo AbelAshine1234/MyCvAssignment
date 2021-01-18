@@ -1,0 +1,32 @@
+/* to the whole page */
+body{
+    background-color: white;
+}
+.titles{
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+
+}
+.menu{
+    float: left;
+    width: 20%;
+}
+.content{
+    float: left;
+    padding: 10px;
+    width: 48%;
+    border-left: 1px black solid;
+}
+.last-post{
+
+    width: 28%;
+    padding: 10px;
+    float: right;
+    border: 1px black dotted ;
+}
+.footer{
+    text-align: center;
+    margin-top: 38%;
+    
+}
