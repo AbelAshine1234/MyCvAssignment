@@ -83,4 +83,12 @@ nav > ul > li:hover
 {
     clear: left;
 }
-.contact-form
+.form-contact{
+    border-bottom: black 3px solid ;
+    border-top: black 3px solid ;
+
+}
+.footer{
+    border-bottom: black 4px solid;
+    color: darkcyan;
+}
