@@ -109,3 +109,19 @@ nav > ul > li:hover
     border-top: black 1px solid;
     color: darkcyan;
 }
+#name{
+    text-transform: uppercase;
+}
+.gallery-body{
+    border: 3px  solid darkcyan;
+    padding: 4px;
+}
+.images{
+    float: left;
+    width: 30%;
+    margin: 1.66667;
+    border: 0px solid red;
+    padding: 1px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+}
