@@ -69,3 +69,18 @@ nav > ul > li:hover
  .contact-bg{
      background-image: url(../assets/img/img.jpg);
  }
+
+ img
+{
+    float: left;
+    border-radius: 100%;           
+    border-style: hidden;
+    width: 250px;
+    height: 250px;
+    margin: 0px 15px 0px 3px;
+}
+#clear
+{
+    clear: left;
+}
+.contact-form
