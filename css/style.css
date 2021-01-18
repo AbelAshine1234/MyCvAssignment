@@ -1,3 +1,5 @@
+
+/* this is for the whole pages */
 body {
 
     border: 10px lightgrey solid ;
@@ -24,69 +26,29 @@ body {
 
  }
  ul{
-  
-  
     border-bottom: black 1px solid;
     border-top: black 1px solid;
    
  }
- section {
-    padding: 5px 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-}
-article {
-    font-size: 15px;
-}
-.title {
-    font-size: 23px;
-    font-weight: bold;
-}
-.date {
-    font-style: italic;
-    font-size: 15px; 
-}
-
-section {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    }
-article {
-        font-size: 15px;
-        text-align: justify;;
-        line-height: 25px;
-    }
-.title {
-        font-size: 23px;
-        font-weight: bold;
-    }
-.date {
-        font-style: italic;
-        font-size: 15px; 
-        text-transform: uppercase;
-
-    }
-    
+     /*to the whole navigation  */
 nav > ul > li{
 
-        display: inline-block;
-        padding: 10px 3px;
-        font-size: 20px;
-    }
-    /* removing the underline  */
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+/* removing the underline  */
 nav > ul > li > a    {
-        text-decoration: none;
+    text-decoration: none;
 }
 nav > ul > li:hover
 {
-    background-color: #ffffff;
-    
-}
- .contact-bg{
-     background-image: url(../assets/img/img.jpg);
- }
+background-color: #ffffff;
 
- img
+}
+/* towhole image */
+img
 {
     float: left;
     border-radius: 100%;           
@@ -95,20 +57,83 @@ nav > ul > li:hover
     height: 250px;
     margin: 0px 15px 0px 3px;
 }
-#clear
-{
-    clear: left;
-}
-.form-contact{
-    border-bottom: black 3px solid ;
-    border-top: black 3px solid ;
-
-}
+/* footer in whole pages */
 .footer{
     border-bottom: black 1px solid;
     border-top: black 1px solid;
     color: darkcyan;
 }
+
+
+
+
+
+/* to clear divs */
+#clear
+{
+    clear: left;
+}
+
+
+
+
+
+
+
+
+ /* this is the blog page */
+
+
+
+ section {
+    padding: 5px 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+article {
+    font-size: 15px;
+    text-align: justify;;
+    line-height: 25px;
+}
+.title { 
+    font-size: 23px;
+    font-weight: bold;
+}
+.date {
+    font-style: italic;
+    font-size: 15px; 
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+/* this is contact page */
+
+
+/* to make the contact page background an image */
+ .contact-bg{
+     background-image: url(../assets/img/img.jpg);
+ }
+ /* forms in contact */
+ .form-contact{
+    border-bottom: black 3px solid ;
+    border-top: black 3px solid ;
+
+}
+
+
+
+
+
+/* Gallery */
+
+
+
+/* to make the gallery text capitalize */
+
 #name{
     text-transform: uppercase;
 }
@@ -116,6 +141,7 @@ nav > ul > li:hover
     border: 3px  solid darkcyan;
     padding: 4px;
 }
+/* 3*3 rows */
 .images{
     float: left;
     width: 30%;
@@ -125,3 +151,6 @@ nav > ul > li:hover
     padding-bottom: 1px;
     box-sizing: border-box;
 }
+
+
+
