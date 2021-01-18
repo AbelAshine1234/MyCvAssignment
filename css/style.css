@@ -7,13 +7,29 @@ body {
     background-color: skyblue;
  }
  header {
-     /* background-color: rgba(119, 90, 90, 0.6);
+     background-color: rgba(119, 90, 90, 0.6);
      position: fixed;
      top: 0;
      width: 98%;
-     background-color : rgba(125,125,125,0.7);  */
+     background-color : rgba(125,125,125,0.7); 
+
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
+     
  }
+ table{
   
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
+
+ }
+ ul{
+  
+  
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
+   
+ }
  section {
     padding: 5px 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -89,6 +105,7 @@ nav > ul > li:hover
 
 }
 .footer{
-    border-bottom: black 4px solid;
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
     color: darkcyan;
 }
