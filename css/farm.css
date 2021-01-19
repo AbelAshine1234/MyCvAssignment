@@ -29,3 +29,10 @@ h1{
 	bottom: 15%;
 	height: 10%;
 }
+a{
+    text-align: left;
+    color: violet;
+    transform: none;
+    text-decoration: none;
+
+}

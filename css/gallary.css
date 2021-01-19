@@ -28,3 +28,8 @@
     background-image: url(../assets/img/Shoe1.jpg) ;
     clip-path: polygon(0 25% , 50% 0 ,100% 25% ,100% 75%,50% 100%,0 75%);
 }
+
+a{
+    text-align: center;
+    text-decoration: none;
+}

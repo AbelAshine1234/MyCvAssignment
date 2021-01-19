@@ -1,31 +1,4 @@
-/* navigation applys to the whole file*/
-body{
-    background-color: rgb(36, 49, 73);
-
-}
- ul{
-    border-bottom: black 1px solid;
-    border-top: black 1px solid;
-   
- } 
-     /*to the whole navigation  */
-nav > ul > li{
-
-    display: inline-block;
-    padding: 10px 3px;
-    font-size: 20px;
-}
-/* removing the underline  */
-nav > ul > li > a    {
-    text-decoration: none;
-    color: brown;
-}
-nav > ul > li:hover
-{
-background-color: #ffffff;
-
-}
-
+  
 
 /* to the calculator */
 
@@ -82,4 +55,7 @@ span{
 .calculator span.equal{
 
     background-color: rgb(68, 131, 10);
+}
+a{
+    color: white;
 }
