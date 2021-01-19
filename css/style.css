@@ -130,6 +130,9 @@ footer .right .suggestion h1{
  /* this is the blog page */
 
 
+ #content{
+     background-color: rgb(0, 238, 255);
+ }
  section {
     padding: 5px 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
