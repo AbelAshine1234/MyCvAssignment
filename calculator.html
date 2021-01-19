@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/calculator.css">
+    <title>calculator</title>
+</head>
+<body>
+     
+
+    <header>
+        <nav>
+         <ul>
+             <li> 
+                 <a href="index.html">Home</a>
+             </li>
+             <li> 
+                  <a href="blog.html">Blog</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+             <li>
+                 <a href="gallery .html">Gallery</a>
+            </li>
+            <li>
+                <a href="./myblogaboutmylife/myblogaboutmylife.html">My Blog About My Life</a>
+           </li>
+
+           <li>
+            <a target="_blank" href="mywork.html">My Works</a>
+          </li>
+          <li>
+            <a target="_blank" href="calculator.html">Calulator</a>
+         </li>
+      </ul>
+        </nav>
+    </header>
+     <!-- to give space for sticky nav -->
+     <div style="margin-top: 200px;"></div>
+
+     <body>
+         
+    <form class="calculator" name="calc" readonly="">
+        <input type="text" name="txt" class="value">
+        <span class="num clear"  onclick="document.text.value +='c'" >c</span>
+        <span class="num" onclick="document.text.value += '/'">/</span>
+        <span class="num" onclick="document.text.value += '*'">*</span>
+
+        <span class="num" onclick="document.text.value +='7'">7</span>
+        <span class="num" onclick="document.text.value +='8'">8</span>
+        <span class="num" onclick="document.text.value +='9'">9</span>
+
+        <span class="num" onclick="document.text.value +='-'">-</span>
+
+        <span class="num" onclick="document.text.value +='4'">4</span>
+        <span class="num" onclick="document.text.value +='5'">5</span>
+        <span class="num" onclick="document.text.value +='6'">6</span>
+
+        <span class="num plus" onclick="document.text.value +='+'">+</span>
+
+        <span class="num" onclick="document.text.value +='3'">3</span>
+        <span class="num" onclick="document.text.value +='2'">2</span>
+        <span class="num" onclick="document.text.value +='1'">1</span>
+
+        <span class="num" onclick="document.text.value +='0'">0</span>
+        <span class="num" onclick="document.text.value +='00'">00</span>
+
+        <span class="num equal" onclick="document.text.value eval(document.text.value)">=</span>
+     </body>
+    
+</body>
+</html>
