@@ -1,0 +1,20 @@
+what is the diffrence between flexiblle and grid layout?
+The differnces are 
+      Dimension
+Flex box is designed for one dimensional or
+    allows designers to position responsive elements appropriately within screens of different sizes.
+
+Grid  box is designed for two dimensional or
+     CSS Grid aligns items in columns and rows, allowing developers to easily
+      control the rendering and appearance of large layouts and whole pages meant for the desktop, tablet, and smartphone displays.
+      Alignment
+Flexbox allows fine-tuning of alignments to ensure exact specification sharing. Flex Direction allows developers to align elements vertically
+ or horizontally, which is used when developers create and reverse rows or columns.
+
+ Flexbox allows fine-tuning of alignments to ensure exact specification sharing.
+  Flex Direction allows developers to align elements vertically or horizontally, 
+ which is used when developers create and reverse rows or columns.
+
+
+    
+
