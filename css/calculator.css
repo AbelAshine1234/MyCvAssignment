@@ -1,31 +1,13 @@
+/* navigation applys to the whole file*/
+body{
+    background-color: rgb(36, 49, 73);
 
-/* to the whole page */
-body {
-
-    border: 10px lightgrey solid ;
-
-    margin: 10px;
-
-    background-color: skyblue;
- }
- header {
-     background-color: rgba(119, 90, 90, 0.6);
-     position: fixed;
-     top: 0;
-     width: 98%;
-     background-color : rgba(125,125,125,0.7); 
-
-    border-bottom: black 1px solid;
-    border-top: black 1px solid;
-     
- }
-
+}
  ul{
     border-bottom: black 1px solid;
     border-top: black 1px solid;
    
- }
-
+ } 
      /*to the whole navigation  */
 nav > ul > li{
 
@@ -36,9 +18,68 @@ nav > ul > li{
 /* removing the underline  */
 nav > ul > li > a    {
     text-decoration: none;
+    color: brown;
 }
 nav > ul > li:hover
 {
 background-color: #ffffff;
 
+}
+
+
+/* to the calculator */
+
+
+ .content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(36, 49, 73);
+
+}
+.calculator{
+    position: relative;
+    display: grid;
+    
+}
+.calculator .value{
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+span{
+    font-size: 18px;
+    display: grid;
+    width: 60px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 19, 63);
+    place-items: center;
+    border: 1px rgba(11, 7, 41, 0.514) solid;
+}
+.calculator span:active{
+    position: relative;
+    display: grid;
+    
+}
+.calculator span.clear{
+
+    grid-column: span 2;
+    width: 120px;
+    background-color: rgb(209, 39, 243);
+}
+.calculator span.plus{
+
+    grid-row: span 2;
+    height: 120px;
+}
+.calculator span.equal{
+
+    background-color: rgb(68, 131, 10);
 }
