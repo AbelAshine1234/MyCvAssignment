@@ -1,0 +1,31 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 64px;
+    font-weight: bolder;
+    text-align: center;
+    color: red;
+}
+.green{
+    background-color: rgb(56, 255, 56);
+    position: fixed;
+    border-top: 1px solid black;
+    bottom: 1px;
+    width: 100%;
+    padding: 4%;
+}
+#sheep{
+    position: fixed;
+    left: 10%;
+    bottom: 2%;
+}
+#tree{
+    position: fixed;
+    left: 80%;
+    bottom: 2%;
+}
+#cow{
+    position: fixed;
+	left: 25%;
+	bottom: 15%;
+	height: 10%;
+}

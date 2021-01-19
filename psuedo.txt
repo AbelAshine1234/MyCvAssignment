@@ -1,0 +1,38 @@
+Explain in depth  how psuedo elements are different from psuedo class selector with example?
+
+A PSUEDO-CLASSis basically a phantom state or specific characteristic of an element
+that can be targeted with CSS.They are  selectors with colon preceding them.
+such as 
+       a:hover
+       
+ we can use the new version of double colmuns for psuedo selectors such as
+  ::before ::after but it is not compatible  for    old version.
+
+        example  
+                :link
+                :visited 
+                :hover
+                :active 
+                :first-child 
+                etc..
+
+
+A PSUEDO ELEMENTS are  like virtual elements they are not in html
+but we can access them in css.
+        example of PSUEDO ELEMENT code
+                   in html
+                        <h1>Girma</h1>
+                   in css (this is psuedo element code)     
+                         h1:before {
+                         content: "Hello ";  
+                         }
+
+        as you have seen the html there is no word that say hello but if we link
+        and run this code it say hello girma that's why we said psudeo elements are  
+        like virtual elements.
+    
+            - ::AFTER/:AFTER
+             - ::FIRST-LETTER/:FIRST-LETTER
+             etc..
+
+      
