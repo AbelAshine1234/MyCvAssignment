@@ -76,18 +76,45 @@ footer .left{
     background-color: rgb(0, 0, 0);
 
 
+
 }
+
+
+footer .left .table .row-title  {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+footer .left .table .copy-right-title{
+    text-transform: uppercase;
+
+}
+
 footer .right{
     width: 40%;
     float: right;
     background-color: black;
-
-
 }
-footer .left .table{
-    background-color: gold;
+footer .right .links{
+    width: 40%;
+    float: left;
+} 
+footer .right .links-images{
+    width: 40px;
+    height: 40px;
 }
-
+footer .right .suggestion{
+    width:  56%;
+    float: right;
+}
+footer .right .suggestion h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+ 
 
 .container{
     background-color: rgb(106, 106, 199);
