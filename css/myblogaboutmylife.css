@@ -30,3 +30,9 @@ body{
     margin-top: 38%;
     
 }
+
+a{
+    color: violet;
+    text-transform: none;
+    text-decoration: none;
+}

@@ -57,5 +57,6 @@ span{
     background-color: rgb(68, 131, 10);
 }
 a{
-    color: white;
+    color: violet;
+    text-decoration: none;
 }

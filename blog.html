@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Blogs</title>
 </head>
-<body>
+<body >
 
     
     <header>
@@ -36,23 +36,98 @@
      <div style="margin-top: 200px;"></div>
 
     
-        <div id="content">
+     <div id="content" >
+            
+        <section>
+            <p class="title">
                 <section>
                     <p class="title">
-                        Lorem ipsum dolor 
+                        Explain in depth  how psuedo elements are different from psuedo class selector with example?
+
 
                 </p>
-                <article>
+                <article> 
+                                        
+                    A PSUEDO-CLASSis basically a phantom state or specific characteristic of an element
+                    that can be targeted with CSS.They are  selectors with colon preceding them.
+                    such as <br>
+                        a:hover <br>
+                        
+                    we can use the new version of double colmuns for psuedo selectors such as <br>
+                    ::before ::after but it is not compatible  for    old version. <br> <br>
 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nam ex, saepe sapiente sunt delectus similique harum id rem est facilis reprehenderit odio ullam quo excepturi! Culpa cupiditate aperiam non.
+                            example  <br> <br>
+                                    :link <br>
+                                    :visited <br>
+                                    :hover <br>
+                                    :active <br>
+                                    :first-child <br> 
+                                    etc.. <br>
 
+
+                    A PSUEDO ELEMENTS are  like virtual elements they are not in html
+                    but we can access them in css. <br>
+                            example of PSUEDO ELEMENT code 
+                                    in html <br>
+                                            <h1>Girma</h1> <br>
+                                    in css (this is psuedo element code)     <br>
+                                            h1:before {
+                                            content: "Hello ";  
+                                            }
+                                            <br>
+
+                            as you have seen the html there is no word that say hello but if we link
+                            and run this code it say hello girma that's why we said psudeo elements are  
+                            like virtual elements. <br>
+                              example  of psuedo codes 
+                            <br>
+                                - ::AFTER/:AFTER
+                                <br> - ::FIRST-LETTER/:FIRST-LETTER
+                                etc.. <br>
+
+      
+                                 
                 </article>
+
+        </p>
+        <article>
+
+            <div id="content" >
+            
+                <section>
+                    <p class="title">
+                        <section>
+                            <p class="title">
+                                what is the diffrence between flexiblle and grid layout?
+    
+        
+                        </p>
+                        <article>
+                                    The differnces are  Dimension <br>
+                            Flex box is designed for one dimensional or allows designers to position responsive elements appropriately within screens of different sizes.
+                              <br>
+                            Grid  box is designed for two dimensional or 
+                                CSS Grid aligns items in columns and rows, allowing developers to easily
+                                    control the rendering and appearance of large layouts and whole pages meant for the desktop, tablet, and smartphone displays.
+                                    Alignment. <br>
+                            Flexbox allows fine-tuning of alignments to ensure exact specification sharing. Flex Direction allows developers to align elements vertically
+                            or horizontally, which is used when developers create and reverse rows or columns. <br>
+                             
+                                         
+                        </article>
+    
+                </p>
+                <article>
+    
+ 
+                             
+                             
+            </article>
                 <p class="date">
                     jul 18 2020
 
                 </p>
                 </section>
-            
         </div>
 
        

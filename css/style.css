@@ -60,11 +60,13 @@ img
 /* footer in whole pages */
 
 footer{
+    position: relative;
     border-bottom: black 1px solid;
     border-top: black 1px solid;
     color: darkcyan;
     margin-top: 200px;
     color: white;
+    bottom: 15px;
 
 
 }
