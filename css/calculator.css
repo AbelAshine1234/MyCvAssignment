@@ -60,3 +60,18 @@ a{
     color: violet;
     text-decoration: none;
 }
+
+
+/* media quries */
+
+@media screen and (max-height:540px)  {
+                
+        .calculator .value{
+            height: 20px;
+        }
+        .calculator .span{
+            height: 20px;
+        }
+    
+
+}

@@ -1,0 +1,70 @@
+/* this is for the whole pages */
+body {
+
+    margin: 10px;
+
+    margin-top: 200px;
+    border: 10px lightgrey solid ;
+
+
+    background-color: rgb(92, 44, 44);
+ }
+ header {
+     background-color: rgba(119, 90, 90, 0.6);
+     position: fixed;
+     top: 0;
+     width: 98%;
+     background-color : rgba(125,125,125,0.7); 
+ 
+     
+ }
+
+     /*to the whole navigation  */
+nav > ul > li{
+
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+/* removing the underline  */
+nav > ul > li > a    {
+    text-decoration: none;
+}
+nav > ul > li:hover
+{
+background-color: #ffffff;
+
+}
+
+/* my blog about my life */
+/* to the whole page */
+.blog-about-life{
+    background-color: white;
+}
+.blog-titles{
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+
+}
+.blog-menu{
+    float: left;
+    width: 20%;
+}
+.bl0g-content{
+    float: left;
+    padding: 10px;
+    width: 48%;
+    border-left: 1px black solid;
+}
+.last-post{
+
+    width: 28%;
+    padding: 10px;
+    float: right;
+    border: 1px black dotted ;
+}
+a{
+    color: rgb(73, 192, 4);
+    text-decoration: none;
+}

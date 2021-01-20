@@ -36,3 +36,22 @@ a{
     text-transform: none;
     text-decoration: none;
 }
+
+/* media queries */
+
+@media  screen and (max-width:560px){
+    .menu{
+        float: left;
+        width: 40%;
+    }
+    .content{
+        float: right;
+        width: 50%;
+    }
+    .last-post{
+        position: fixed;
+        margin-top: 20px;
+        bottom: 2px;
+    }
+
+}
